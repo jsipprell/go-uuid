@@ -1,5 +1,5 @@
-Yet Another Go UUID Generators
-==============================
+Yet Another Go UUID Generator
+=============================
 
 _Because there can never be too many uuid generators or uuid types._
 
