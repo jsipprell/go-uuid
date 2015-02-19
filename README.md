@@ -15,10 +15,13 @@ func main() {
   var id uuid.UUID
 
   id = uuid.New()
+  fmt.Printf("first uuid is %v\n",id)
 
-  fmt.Printf("first uuid is %v\n")
-  fmt.Printf("second uuid is %v\n")
-  fmt.Printf("third uuid is %v\n")
+  id = uuid.New()
+  fmt.Printf("second uuid is %v\n",id)
+
+  id = uuid.New()
+  fmt.Printf("third uuid is %v\n",id)
 }
 ```
 
